@@ -1,0 +1,21 @@
+{
+  "name": "@rpm/middleware",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@rpm/shared": "*",
+    "dotenv": "^16.4.5",
+    "uuid": "^9.0.1",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.5.4"
+  }
+}

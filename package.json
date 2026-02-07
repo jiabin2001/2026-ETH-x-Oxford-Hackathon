@@ -1,0 +1,15 @@
+{
+  "name": "rwa-portfolio-manager",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "contracts"
+  ],
+  "scripts": {
+    "lint": "echo \"(optional) add eslint\"",
+    "dev": "npm -w apps/middleware run dev",
+    "dev:dashboard": "npm -w apps/dashboard run dev",
+    "dev:all": "node ./scripts/dev-all.mjs"
+  }
+}

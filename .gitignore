@@ -1,0 +1,6 @@
+node_modules
+dist
+.env
+apps/middleware/audit.jsonl
+apps/model-service/.venv
+__pycache__
