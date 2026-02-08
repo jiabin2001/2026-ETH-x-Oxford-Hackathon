@@ -4,6 +4,8 @@ Risk-management middleware and dashboard for tokenized real-world assets (RWAs).
 
 WARNING: MVP demo only. Do not use in production without security, legal/compliance, and smart-contract audits.
 
+This project was completed with assistance from cursoragent.
+
 ## Architecture (end-to-end)
 1. **Observation**: The middleware builds an observation frame from on-chain/context data and Web2 attestations (CoinGecko prices + Flare FDC Web2Json).
 2. **Agent swarm**: Specialized agents emit signals and action intents (provenance, valuation, liquidity, credit, compliance, strategy, analyst).
